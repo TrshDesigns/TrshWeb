@@ -1,0 +1,286 @@
+/* slightly transparent fallback for Firefox (not supporting backdrop-filter) */
+@supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+	#lateral:hover, #lateral:focus,  #lateral:active {
+    background-color: rgba(255, 255, 255, 0.648);
+  }
+}
+.menubuttonbar{
+	padding-left:15px;
+	position:fixed;
+	margin-top:5px;
+	margin-left:330px;
+	color:#dd5c83;
+	background-color:rgba(255, 255, 255, 0.762);
+	border-radius: 100%;
+	width:40px;
+}
+.link-titulo{
+	text-decoration:underline solid rgba(0, 0, 0, 0.315);
+	text-align: left;
+	margin-left:105px;
+}
+.fa-box-open{
+	color:#f94873;
+	margin-top:5px;
+	margin-left:3px;
+}
+.fa-user-astronaut{
+	color:#f94873;
+	margin-top:5px;
+	margin-left:10px;
+}
+.fa-user-astronaut:hover{
+    filter:brightness(1.1);
+    -webkit-filter: brightness(1.1);
+    cursor:pointer;
+}
+.fa-home{
+	font-size:35px;
+	margin-left:100px;
+	position:relative;
+	color: #f94873;
+	cursor:pointer;
+}
+.fa-book{
+	position:relative;
+	color:#f94873;
+	cursor:pointer;
+	margin-left:10px;
+	font-size:35px;
+	
+}
+.fa-calendar-day{
+	position:relative;
+	color:#f94873;
+	cursor:pointer;
+	margin-left:10px;
+	font-size:35px;
+}
+.fa-home:hover{
+	font-size:37px;
+	filter:brightness(1.1);
+    -webkit-filter: brightness(1.1);
+}
+.fa-book:hover{
+	font-size:37px;
+	filter:brightness(1.1);
+    -webkit-filter: brightness(1.1);
+}
+.fa-calendar-day:hover{
+	font-size:37px;
+	filter:brightness(1.1);
+    -webkit-filter: brightness(1.1);
+}
+#lateral {
+	z-index:10;
+	padding:0 373px 0 0;
+	  -moz-transition: all 0.65s ease;
+	  -webkit-transition: all 0.65s ease;
+	  -o-transition: all 0.65s ease;
+	transition: all 0.65s ease;
+	font-size:1.2em;
+	border-radius:10px;
+	background:rgba(0, 0, 0, 0);
+	height:45px;
+	overflow:hidden;
+	width:340px; 
+	position:fixed;
+	top:0;
+	left:-320px;
+}
+#lateral:before {
+	font-size:2em;
+	color:white;
+	position:fixed;
+	left:4px;
+	top:45px;
+}
+
+#lateral:hover, #lateral:focus,  #lateral:active  {
+	z-index:10;
+	overflow-y:scroll;
+	  -moz-transform: translate(320px, 0);
+	  -webkit-transform: translate(320px, 0);
+	  -o-transform: translate(320px, 0);
+	transform: translate(320px, 0);
+	padding-right:0;
+	background: rgba(255, 255, 255, 0.155);
+border-radius: 10px;
+	height: 95%;
+	background: rgba(255, 255, 255, 0.382);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}	
+/* Estilização das seções do Menu */
+#lateral .box {
+	list-style-type:none;
+	margin-bottom:1em;;
+	padding-bottom:1em;
+	font-size: 10px;
+}
+h2{
+	font-size:20px;
+	text-align:center;
+	margin-right:140px;
+	font-family: 'Roboto', sans-serif;
+	text-decoration:dotted;
+}
+#lateral h3{
+	display:inline-block;
+	font-weight:bold;
+	font-size:20px;
+	font-style:normal;
+	padding-bottom:0.2em;
+	margin: 3em 0 2em 0.81em;
+	color:rgb(11, 0, 0);
+	border-bottom: 10px solid rgb(16, 140, 222);
+	margin-right: 100px;
+	border-radius: 5px;;
+	text-decoration:none;
+	font-family: 'Roboto', sans-serif;
+}
+#menu {
+	position:relative;
+	font-size:1.0em;
+	margin:1em 0 1em -1em;
+}
+#menu li {
+	padding-left:50px; 
+	margin:0;
+}
+#menu li a,  #menu li a:link {
+	font-size:1.9em;
+	color:rgb(0, 0, 0);
+	text-decoration: none;
+	padding: 0.8em 0 0.8em 1em;
+	display: block;
+	  -moz-transition: all 1.2s ease;
+	  -webkit-transition: all 1.2s ease;
+	  -o-transition: all 1.2s ease;
+	transition: all 1.2s ease;
+	border-radius:15px;
+	margin-right: 10px;
+}
+#menu li a:hover {
+	color:rgb(0, 0, 0);
+	background-color:rgba(251, 253, 255, 0.303);
+	  -moz-transition: all 0.5s ease;
+	  -webkit-transition: all 0.5s ease;
+	  -o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.hover{
+	background-color:rgba(251, 253, 255, 0.036);
+	-moz-transition: all 1.2s ease;
+	-webkit-transition: all 1.2s ease;
+	-o-transition: all 1.2s ease;
+  transition: all 1.2s ease;
+}
+.hover:hover{
+	background-color:rgba(251, 253, 255, 0.303);
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border-radius:15px;
+}
+
+@media(max-width: 650px) {
+    #lateral {
+        z-index:10;
+        padding:0 373px 0 0;
+          -moz-transition: all 0.5s ease;
+          -webkit-transition: all 0.5s ease;
+          -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        font-size:1.2em;
+        border-radius:10px;
+        background:rgba(255, 255, 255, 0);
+        height:45px;
+        overflow:hidden;
+        width:240px; 
+        position:fixed;
+        top:0;
+        left:-320px;
+	}
+	.fa-home{
+		font-size:25px;
+		margin-left:40px;
+		position:relative;
+		color: #dd5c83;
+		cursor:pointer;
+	}
+	.fa-book{
+		position:relative;
+		color:#dd5c83;
+		cursor:pointer;
+		margin-left:10px;
+		font-size:25px;
+		
+	}
+	.fa-calendar-day{
+		position:relative;
+		color:#dd5c83;
+		cursor:pointer;
+		margin-left:10px;
+		font-size:25px;
+	}
+	.fa-home:hover , .fa-calendar-day:hover , .fa-book:hover {
+		font-size:28px
+	}
+}
+@media(max-width: 350px) {
+    #lateral {
+        z-index:10;
+        padding:0 373px 0 0;
+          -moz-transition: all 0.5s ease;
+          -webkit-transition: all 0.5s ease;
+          -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        font-size:1.2em;
+        border-radius:10px;
+        background:rgba(255, 255, 255, 0);
+        height:45px;
+        overflow:hidden;
+        width:160px; 
+        position:fixed;
+        top:0;
+		left:-320px;		
+	}
+	.box{
+		padding:0px;
+        margin-right:1px;
+	}
+	#lateral:hover, #lateral:focus,  #lateral:active{
+		height:450px;
+		width:190px;
+	
+	}
+	.fa-home{
+		font-size:21px;
+		margin-left:20px;
+		position:relative;
+		color: #dd5c83;
+		cursor:pointer;
+	}
+	.fa-book{
+		position:relative;
+		color:#dd5c83;
+		cursor:pointer;
+		margin-left:10px;
+		font-size:21px;
+		
+	}
+	.fa-calendar-day{
+		position:relative;
+		color:#dd5c83;
+		cursor:pointer;
+		margin-left:10px;
+		font-size:21px;
+	}
+	.fa-home:hover , .fa-calendar-day:hover , .fa-book:hover {
+		font-size:28px
+	}
+	.emailp{
+		font-size:15px;
+	}
+}
