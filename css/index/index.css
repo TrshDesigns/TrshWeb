@@ -340,7 +340,8 @@ section, .intrinsic-size{
 }
 @media(max-height: 340px){
     .logo{
-        height:100px;
-        width:100px;
+        height:120px;
+        width:120px;
+        margin-top:15px;
     }
 }
