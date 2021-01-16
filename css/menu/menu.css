@@ -138,7 +138,7 @@ h2{
 }
 #menu li a:hover {
 	color:rgb(255, 255, 255);
-	background-color:rgba(218, 17, 60, 0.665);
+	background-color:#f94873;
 	  -moz-transition: all 0.8s ease;
 	  -webkit-transition: all 0.8s ease;
 	  -o-transition: all 0.8s ease;
@@ -249,24 +249,11 @@ h2{
 	.fa-home{
 		font-size:21px;
 		margin-left:20px;
-		position:relative;
-		color: #dd5c83;
-		cursor:pointer;
 	}
-	.fa-book{
-		position:relative;
-		color:#dd5c83;
-		cursor:pointer;
+	.fa-book, .fa-calendar-day{
 		margin-left:10px;
 		font-size:21px;
 		
-	}
-	.fa-calendar-day{
-		position:relative;
-		color:#dd5c83;
-		cursor:pointer;
-		margin-left:10px;
-		font-size:21px;
 	}
 	.fa-home:hover , .fa-calendar-day:hover , .fa-book:hover {
 		font-size:28px
