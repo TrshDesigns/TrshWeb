@@ -208,12 +208,12 @@ h2{
 		font-size:25px;
 		margin-left:40px;
 		position:relative;
-		color: #dd5c83;
+		color: #f94873;
 		cursor:pointer;
 	}
 	.fa-book{
 		position:relative;
-		color:#dd5c83;
+		color:#f94873;
 		cursor:pointer;
 		margin-left:10px;
 		font-size:25px;
@@ -221,7 +221,7 @@ h2{
 	}
 	.fa-calendar-day{
 		position:relative;
-		color:#dd5c83;
+		color:#f94873;
 		cursor:pointer;
 		margin-left:10px;
 		font-size:25px;
