@@ -337,3 +337,10 @@ section, .intrinsic-size{
         font-size:90px;
     }
 }
+@media(max-height: 340px){
+    .logo{
+        height:130px;
+        width:130px;
+        margin-top:10px;
+    }
+}
