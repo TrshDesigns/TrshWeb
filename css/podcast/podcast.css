@@ -9,7 +9,6 @@ body{
     margin:0px;
     padding:0px;
 }
-
 .languagesimg{
     width: 143px;
     height: 208px;
@@ -102,7 +101,7 @@ section, .intrinsic-size{
     text-align:center;
     font-family: 'Roboto', sans-serif;
 }
-#ARTICLES:hover, #PODCAST:hover, #COURSES:hover{
+#ARTICLES:hover, #PODCAST:hover, #COURSES:hover, #HOME:hover{
     background-color:rgb(255, 255, 255, 0.163);
     filter: brightness(1.5);
     border-radius: 15px;
