@@ -78,7 +78,7 @@
 	padding-right:0;
 border-radius: 10px;
 	height: 95%;
-	background: rgba(255, 255, 255, 0.802);
+	background: rgba(255, 255, 255, 0.665);
 box-shadow: 0 10px 39px 0 rgba( 31, 38, 135, 0.37 );
 overflow-y:scroll;
 	  -moz-transform: translate(320px, 0);
@@ -152,14 +152,13 @@ h2{
   transition: all 1.2s ease;
 }
 .hover:hover{
-	background-color:rgba(255, 255, 255, 0.212);
+	background-color:rgba(255, 255, 255, 0.733);
 	-moz-transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
   transition: all 0.5s ease;
   border-radius:15px;
 }
-
 @media(max-width: 650px) {
     #lateral {
         z-index:10;
@@ -179,7 +178,7 @@ h2{
         left:-320px;
 	}
 	#lateral:hover, #lateral:focus,  #lateral:active  {
-		background: rgba(255, 255, 255, 0.706);
+		background: rgba(255, 255, 255, 0.774);
 	}	
 	.fa-home{
 		font-size:25px;
@@ -210,9 +209,15 @@ h2{
 @media(max-width:500px){
 	.menubuttonbar{
 		font-size:50px;
-		padding-left:20px;
+		padding-left:18px;
 		width:50px;
-		padding-top:12px;
+	}
+	#lateral {
+		height: 60px;
+		width:  60px;;
+	}
+	#lateral:hover{
+		width: 220px;
 	}
 }
 @media(max-width: 350px) {
@@ -225,7 +230,7 @@ h2{
         transition: all 0.5s ease;
         font-size:1.2em;
         border-radius:10px;
-        background:rgba(255, 255, 255, 0);
+        background:rgba(255, 252, 252, 0);
         height:45px;
         overflow:hidden;
         width:160px; 
@@ -240,7 +245,6 @@ h2{
 	#lateral:hover, #lateral:focus,  #lateral:active{
 		height:450px;
 		width:190px;
-	
 	}
 	.fa-home{
 		font-size:21px;
