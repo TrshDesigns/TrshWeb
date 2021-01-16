@@ -98,17 +98,16 @@
 
 #lateral:hover, #lateral:focus,  #lateral:active  {
 	z-index:10;
-	overflow-y:scroll;
+	padding-right:0;
+border-radius: 10px;
+	height: 95%;
+	background: rgba(255, 255, 255, 0.473);
+box-shadow: 0 10px 39px 0 rgba( 31, 38, 135, 0.37 );
+overflow-y:scroll;
 	  -moz-transform: translate(320px, 0);
 	  -webkit-transform: translate(320px, 0);
 	  -o-transform: translate(320px, 0);
 	transform: translate(320px, 0);
-	padding-right:0;
-	background: rgba(255, 255, 255, 0.155);
-border-radius: 10px;
-	height: 95%;
-	background: rgba(255, 255, 255, 0.382);
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 }	
 /* Estilização das seções do Menu */
 #lateral .box {
@@ -161,22 +160,22 @@ h2{
 	margin-right: 10px;
 }
 #menu li a:hover {
-	color:rgb(0, 0, 0);
-	background-color:rgba(251, 253, 255, 0.303);
-	  -moz-transition: all 0.5s ease;
-	  -webkit-transition: all 0.5s ease;
-	  -o-transition: all 0.5s ease;
-	transition: all 0.5s ease;
+	color:rgb(255, 255, 255);
+	background-color:rgba(218, 17, 60, 0.665);
+	  -moz-transition: all 0.8s ease;
+	  -webkit-transition: all 0.8s ease;
+	  -o-transition: all 0.8s ease;
+	transition: all 0.8s ease;
 }
 .hover{
-	background-color:rgba(251, 253, 255, 0.036);
+	background-color:rgba(255, 255, 255, 0);
 	-moz-transition: all 1.2s ease;
 	-webkit-transition: all 1.2s ease;
 	-o-transition: all 1.2s ease;
   transition: all 1.2s ease;
 }
 .hover:hover{
-	background-color:rgba(251, 253, 255, 0.303);
+	background-color:rgba(255, 255, 255, 0.212);
 	-moz-transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
@@ -202,6 +201,9 @@ h2{
         top:0;
         left:-320px;
 	}
+	#lateral:hover, #lateral:focus,  #lateral:active  {
+		background: rgba(255, 255, 255, 0.637);
+	}	
 	.fa-home{
 		font-size:25px;
 		margin-left:40px;
