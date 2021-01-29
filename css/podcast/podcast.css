@@ -78,9 +78,6 @@ section, .intrinsic-size{
     width: 200px;
     height: 250px;
 }
-#HOME:hover{
-    cursor:none;
-}
 #PODCAST{
     border-radius: 15px;
     font-size: 20px;
@@ -101,7 +98,7 @@ section, .intrinsic-size{
     text-align:center;
     font-family: 'Roboto', sans-serif;
 }
-#ARTICLES:hover, #PODCAST:hover, #COURSES:hover, #HOME:hover{
+#ARTICLES:hover, #COURSES:hover, #HOME:hover{
     background-color:rgb(255, 255, 255, 0.163);
     filter: brightness(1.5);
     border-radius: 15px;
