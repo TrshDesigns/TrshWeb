@@ -59,15 +59,6 @@ section, .intrinsic-size{
     background-color:rgba(252, 226, 244, 0);
     
 }
-.fa {
-    font-size: 32px;
-    color: #9c47fc;
-    display: block;
-    background: -webkit-linear-gradient(#9c47fc, #356ad2);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 .cursorpointer{
     cursor: pointer;
 }
