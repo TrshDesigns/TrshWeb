@@ -207,11 +207,6 @@ h2{
 	}
 }
 @media(max-width:500px){
-	.menubuttonbar{
-		font-size:50px;
-		padding-left:18px;
-		width:49px;
-	}
 	#lateral {
 		height: 60px;
 		width:  60px;;
