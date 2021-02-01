@@ -78,6 +78,9 @@ section, .intrinsic-size{
     align-content: center;
     width: 200px;
     height: 250px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
 }
 #HOME:hover{
     cursor:none;
