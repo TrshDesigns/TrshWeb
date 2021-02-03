@@ -32,18 +32,7 @@ body{
 .fa-code{
     margin-top: 140px;
 }
-.header::after{
-    content:"" ;
-    height: 100vh;
-    width: 100vh,;
-    background-image: url(/LandingPage/img/landscape.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: block;
-    -webkit-filter: blur(15px);
-    filter:blur(15px);
-}
+
 .header::after{
     content:"" ;
     height: 100vh;
@@ -97,12 +86,14 @@ section, .intrinsic-size{
     position: absolute;
     z-index: 1;
     top: 25%;
-    margin-top: 40px;
-    margin-left:41%;
+    margin-top: 1rem;
     text-align: center;
     align-content: center;
-    width: 200px;
+    width: 100%;
     height: 250px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
 }
 #PODCAST:hover{
     cursor:none;

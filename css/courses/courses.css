@@ -67,7 +67,6 @@ section, .intrinsic-size{
     position: absolute;
     z-index: 2;
 }
-
 .header-content{
     position: absolute;
     z-index: 1;
@@ -311,33 +310,8 @@ section, .intrinsic-size{
     .fa-project-diagram{
         font-size:120px;
     }
-    .header-content{
-        position: absolute;
-        z-index: 1;
-        top: 25%;
-        margin-top: 40px;
-        margin-left:39%;
-        text-align: center;
-        align-content: center;
-        width: 200px;
-        height: 250px;
-    }
-}
-@media(max-width: 475px){
-    .header-content{
-        margin-left:33%;
-    }
-}
-@media(max-width: 390px){
-    .header-content{
-        margin-left:25%;
-        margin-right:25%;
-    }
 }
 @media(max-width: 300px){
-    .header-content{
-        margin-left:20%;
-    }
     .logo{
         height:150px;
         width:150px;

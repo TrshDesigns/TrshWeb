@@ -143,7 +143,6 @@ section, .intrinsic-size{
     background-color:#fffffff1;
     box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.015);
     box-shadow: 3px 7px 13px 0 rgba( 31, 38, 135, 0.37 );
-
 }
 .card:hover{
     box-shadow: 7px 7px 5px  rgba(0, 0, 0, 0.2);
@@ -296,33 +295,8 @@ section, .intrinsic-size{
     .fa-project-diagram{
         font-size:120px;
     }
-    .header-content{
-        position: absolute;
-        z-index: 1;
-        top: 25%;
-        margin-top: 40px;
-        margin-left:39%;
-        text-align: center;
-        align-content: center;
-        width: 200px;
-        height: 250px;
-    }
-}
-@media(max-width: 475px){
-    .header-content{
-        margin-left:33%;
-    }
-}
-@media(max-width: 390px){
-    .header-content{
-        margin-left:25%;
-        margin-right:25%;
-    }
 }
 @media(max-width: 300px){
-    .header-content{
-        margin-left:20%;
-    }
     .languagesimg{
         width:83px;
         height: 120px;
