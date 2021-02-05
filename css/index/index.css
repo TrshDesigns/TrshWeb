@@ -83,7 +83,7 @@ section, .intrinsic-size{
     align-items:center;
 }
 #HOME:hover{
-    cursor:none;
+    cursor:default;
 }
 #HOME{
     border-radius: 15px;
