@@ -277,7 +277,7 @@ section, .intrinsic-size{
         grid-template-columns:1fr;
     }
     #HOME, #PODCAST, #ARTICLES, #COURSES{
-        border:rgba(255, 255, 255, 0.667) solid 4px;
+        border:rgba(255, 255, 255, 0.845) solid 4px;
         margin:1px;
     }
     .olstyle{
@@ -289,7 +289,7 @@ section, .intrinsic-size{
     align-content:center;
     border:solid rgba(255, 255, 255, 0) 0.5px;
     background-color:rgba(230, 241, 245, 0);
-    box-shadow:none;
+    box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.2);    
     }
     .menu{
         text-align:center;
