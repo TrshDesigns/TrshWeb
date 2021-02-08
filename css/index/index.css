@@ -305,6 +305,9 @@ section, .intrinsic-size{
     .fa-project-diagram{
         font-size:120px;
     }
+    .header-content{
+        margin-left:5%;
+    }
 }
 @media(max-width: 300px){
     .languagesimg{
