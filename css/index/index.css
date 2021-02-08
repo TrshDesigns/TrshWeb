@@ -246,6 +246,7 @@ section, .intrinsic-size{
         padding: auto;
         margin:auto;
         text-align: auto;
+        font-size:24px;
     }
     .gallery-cover{
         display: grid;
@@ -274,6 +275,10 @@ section, .intrinsic-size{
     .grid-4{
         display:grid;
         grid-template-columns:1fr;
+    }
+    #HOME, #PODCAST, #ARTICLES, #COURSES{
+        border:rgba(255, 255, 255, 0.667) solid 4px;
+        margin:1px;
     }
     .olstyle{
     position:center;
