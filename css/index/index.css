@@ -72,7 +72,7 @@ section, .intrinsic-size{
 .header-content{
     position: absolute;
     z-index: 1;
-    top: 35%;
+    top: 26%;
     margin-top: 1rem;
     text-align: center;
     align-content: center;
@@ -281,10 +281,14 @@ section, .intrinsic-size{
         margin:1px;
     }
     .olstyle{
+    display:flex;
+    flex-direction:column;
     position:center;
+    align-items:center;
+    align-self: center;
+    align-content:center;
     border:solid rgba(255, 255, 255, 0) 0.5px;
     background-color:rgba(230, 241, 245, 0);
-    margin-right: 10px;  
     box-shadow:none;
     }
     .menu{
