@@ -296,11 +296,6 @@ section, .intrinsic-size{
         font-size:120px;
     }
 }
-@media(max-width: 475px){
-    .header-content{
-        margin-left:2%;
-    }
-}
 @media(max-width: 300px){
     .languagesimg{
         width:83px;
