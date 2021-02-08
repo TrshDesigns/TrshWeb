@@ -72,7 +72,7 @@ section, .intrinsic-size{
 .header-content{
     position: absolute;
     z-index: 1;
-    top: 30%;
+    top: 35%;
     margin-top: 1rem;
     text-align: center;
     align-content: center;
