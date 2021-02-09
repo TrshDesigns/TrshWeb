@@ -282,6 +282,7 @@ section, .intrinsic-size{
         border-radius:11px;  
     }
     .olstyle{
+        margin-top:15%;
     display:flex;
     flex-direction:column;
     position:center;
@@ -293,7 +294,7 @@ section, .intrinsic-size{
     box-shadow:none;
     }
     .header-content{
-        top:30%;
+        top:35%;
     }
     .menu{
         text-align:center;
