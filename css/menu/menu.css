@@ -178,7 +178,7 @@ h2{
         left:-320px;
 	}
 	#lateral:hover, #lateral:focus,  #lateral:active  {
-		background: rgba(255, 255, 255, 0.774);
+		background: rgba(255, 255, 255, 0.83);
 	}	
 	.fa-home{
 		font-size:25px;
@@ -241,17 +241,13 @@ h2{
 		height:450px;
 		width:190px;
 	}
-	.fa-home{
-		font-size:21px;
-		margin-left:20px;
-	}
-	.fa-book, .fa-calendar-day{
+	.fa-book, .fa-calendar-day, .fa-home{
 		margin-left:10px;
-		font-size:21px;
+		font-size:19px;
 		
 	}
 	.fa-home:hover , .fa-calendar-day:hover , .fa-book:hover {
-		font-size:28px
+		font-size:21px
 	}
 	.emailp{
 		font-size:15px;
