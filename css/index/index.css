@@ -331,6 +331,9 @@ section, .intrinsic-size{
     .responsive-300px{
         font-size:22px;
     }
+    .card{
+        width:200px;
+    }
 }
 @media(max-height: 600px){
     .logo{
@@ -343,6 +346,7 @@ section, .intrinsic-size{
         font-size:20px;
     }
     .header-content{
-        top:35%;
+        top:38%;
+        height:100%;
     }
 }

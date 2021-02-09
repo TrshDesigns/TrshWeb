@@ -248,5 +248,8 @@ h2{
 	.fa-home:hover , .fa-calendar-day:hover , .fa-book:hover {
 		font-size:19px;
 	}
-	
+	h2{
+		font-size:12px;
+		
+	}
 }
