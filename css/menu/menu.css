@@ -182,7 +182,7 @@ h2{
 	}	
 	.fa-home{
 		font-size:25px;
-		margin-left:40px;
+		margin-left:30px;
 		position:relative;
 		color: #f94873;
 		cursor:pointer;
@@ -224,23 +224,6 @@ h2{
 	}
 }
 @media(max-width: 350px) {
-    #lateral {
-        z-index:10;
-        padding:0 373px 0 0;
-          -moz-transition: all 0.5s ease;
-          -webkit-transition: all 0.5s ease;
-          -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-        font-size:1.2em;
-        border-radius:10px;
-        background:rgba(255, 252, 252, 0);
-        height:45px;
-        overflow:hidden;
-        width:160px; 
-        position:fixed;
-        top:0;
-		left:-320px;		
-	}
 	.box{
 		padding:0px;
         margin-right:1px;
@@ -252,4 +235,18 @@ h2{
 	.emailp{
 		font-size:15px;
 	}
+}
+@media(max-width: 290px) {
+	#lateral:hover, #lateral:focus, #lateral:active{
+		width: 150px;
+	}
+	.fa-book, .fa-calendar-day, .fa-home{
+		margin-left:1px;
+		font-size:18px;
+		margin-left:3px;
+	}
+	.fa-home:hover , .fa-calendar-day:hover , .fa-book:hover {
+		font-size:19px;
+	}
+	
 }
