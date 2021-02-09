@@ -337,7 +337,6 @@ section, .intrinsic-size{
         height:130px;
         width:130px;
     }
-    
 }
 @media(max-height: 450px){
     #HOME, #PODCAST, #ARTICLES, #COURSES{
