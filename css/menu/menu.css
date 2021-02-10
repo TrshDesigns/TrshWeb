@@ -96,7 +96,6 @@ overflow-y:scroll;
 h2{
 	font-size:20px;
 	text-align:center;
-	margin-right:140px;
 	font-family: 'Roboto', sans-serif;
 	text-decoration:dotted;
 }
@@ -229,11 +228,16 @@ h2{
         margin-right:1px;
 	}
 	#lateral:hover, #lateral:focus,  #lateral:active{
-		height:450px;
+		height:80%;
 		width:190px;
 	}
 	.emailp{
 		font-size:15px;
+	}
+	h2{
+		font-size:11px;
+		padding-right:20px;
+	
 	}
 }
 @media(max-width: 290px) {
@@ -247,9 +251,5 @@ h2{
 	}
 	.fa-home:hover , .fa-calendar-day:hover , .fa-book:hover {
 		font-size:19px;
-	}
-	h2{
-		font-size:12px;
-		
 	}
 }
