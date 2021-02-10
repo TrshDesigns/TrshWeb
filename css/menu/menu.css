@@ -217,7 +217,7 @@ h2{
 		width: 220px;
 	}
 	.fa-book, .fa-calendar-day, .fa-home{
-		margin-left:10px;
+		margin-left:3px;
 		font-size:23px;
 		
 	}
@@ -247,9 +247,8 @@ h2{
 		width: 150px;
 	}
 	.fa-book, .fa-calendar-day, .fa-home{
-		margin-left:1px;
 		font-size:18px;
-		margin-left:3px;
+		margin-left:5px;
 	}
 	.fa-home:hover , .fa-calendar-day:hover , .fa-book:hover {
 		font-size:19px;
