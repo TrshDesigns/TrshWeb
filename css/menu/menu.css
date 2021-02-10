@@ -158,6 +158,9 @@ h2{
   transition: all 0.5s ease;
   border-radius:15px;
 }
+.link-titulo{
+	font-size:20px;
+}
 @media(max-width: 650px) {
     #lateral {
         z-index:10;
@@ -234,10 +237,9 @@ h2{
 	.emailp{
 		font-size:15px;
 	}
-	h2{
-		font-size:11px;
+	.link-titulo{
+		font-size:20px;
 		padding-right:20px;
-
 	}
 }
 @media(max-width: 290px) {
@@ -251,5 +253,10 @@ h2{
 	}
 	.fa-home:hover , .fa-calendar-day:hover , .fa-book:hover {
 		font-size:19px;
+	}
+	.link-titulo{
+		font-size:12px;
+		display:flex;
+		align-items:flex-start;
 	}
 }
