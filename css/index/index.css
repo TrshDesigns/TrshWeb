@@ -14,6 +14,8 @@ body{
     width: 143px;
     height: 208px;
     border-radius:15px;
+    transform:translateY(0);
+    transition:all .3s ease-in-out;
 }
 .fa-code{
     margin-top: 140px;
@@ -142,10 +144,14 @@ section, .intrinsic-size{
     background-color:#fffffff1;
     box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.015);
     box-shadow: 3px 7px 13px 0 rgba( 31, 38, 135, 0.37 );
+    transform: translateY(0);
+    transition: all .3s ease-in-out;
 }
 .card:hover{
     box-shadow: 7px 7px 5px  rgba(0, 0, 0, 0.2);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    transform: translateY(-20px);
+    transition: all .3s ease-in-out;
 }
 .fab.fa-instagram{
     color: rgb(240, 61, 160);

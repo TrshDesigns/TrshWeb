@@ -85,7 +85,7 @@ section, .intrinsic-size{
 #HOME:hover{
     cursor:default;
 }
-#HOME{
+#PODCAST{
     border-radius: 15px;
     font-size: 20px;
     font-weight:lighter;
@@ -96,7 +96,7 @@ section, .intrinsic-size{
     text-align:center;
     font-family: 'Roboto', sans-serif;
 }
-#PODCAST, #ARTICLES, #COURSES{
+#HOME, #ARTICLES, #COURSES{
     border-radius: 15px;
     font-size: 20px;
     background-color:rgba(255, 255, 255, 0.056);
@@ -105,7 +105,7 @@ section, .intrinsic-size{
     text-align:center;
     font-family: 'Roboto', sans-serif;
 }
-#ARTICLES:hover, #PODCAST:hover, #COURSES:hover{
+#ARTICLES:hover, #HOME:hover, #COURSES:hover{
     background-color:rgb(255, 255, 255, 0.163);
     filter: brightness(1.5);
 }
