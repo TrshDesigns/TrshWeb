@@ -3,7 +3,6 @@
     user-select:none;
 }
 body{
-    background: rgb(2,0,36);
     background: linear-gradient(0deg, rgb(188, 228, 237) 0%, rgba(78, 8, 51, 0) 35%, rgb(178, 241, 255) 100%);
     font-family: 'Roboto', sans-serif;
     margin:0px;
@@ -20,7 +19,7 @@ body{
 } 
 .header::after{
     content:"" ;
-    height: 100vh;
+    height: 58vh;
     width: 100%;
     background-image: url(/img/landscape.png);
     background-size:cover;
@@ -29,6 +28,10 @@ body{
     display: block;
     -webkit-filter: blur(15px);
     filter:blur(10px);
+}
+.new{
+    height:600px;
+    width:100%;
 }
 hr{
     color:white;
@@ -134,12 +137,13 @@ section, .intrinsic-size{
 }
 .card{  
     height: 310px;
-    width: 240px;
+    width: 600px;
     border-radius: 7%;
     background-color:#fffffff1;
     box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.015);
     box-shadow: 3px 7px 13px 0 rgba( 31, 38, 135, 0.37 );
 }
+sectio
 .card:hover{
     box-shadow: 7px 7px 5px  rgba(0, 0, 0, 0.2);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );

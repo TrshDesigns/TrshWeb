@@ -48,7 +48,7 @@ a {
   -webkit-filter: brightness(1.1);
   cursor: pointer;
   transform: translateY(-5px);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .fa-book,
 .fa-calendar-day {
@@ -72,7 +72,7 @@ a {
 .fa-home:hover {
   font-size: 41px;
   transform: translateY(-5px);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.1s ease-in-out;
   filter: brightness(1.1);
   -webkit-filter: brightness(1.1);
 }
