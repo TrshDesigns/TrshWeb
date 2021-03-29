@@ -3,32 +3,60 @@
     user-select:none;
 }
 body{
-    background: rgb(2,0,36);
-    background: linear-gradient(0deg, rgb(188, 228, 237) 0%, rgba(255, 255, 255, 0) 35%, rgb(255, 255, 255) 100%);
+    background: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
     margin:0px;
     padding:0px;
 }
-
+.status{
+    z-index:10;
+    position:fixed;
+    background-color: #ffff;
+    width:205px;
+    height:83%;
+    margin-left:84%;
+    color:rgb(0, 0, 0);
+    border-radius:15px;
+    box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.015);
+    box-shadow: 3px 7px 13px 0 rgba( 31, 38, 135, 0.37 );
+    text-align:center;
+    margin-top:49px;
+}
 .languagesimg{
     width: 143px;
     height: 208px;
     border-radius:15px;
 }
+.fab{
+    color:#0eb2b5e2;
+}
 .fa-code{
     margin-top: 140px;
 } 
+.bar{
+    background-color:rgba(0, 170, 232, 0.969);
+    width:100px;
+    height:10px;
+    border-radius:15px;
+    color:white;
+    border:solid black 1px;
+    align-items: flex-start;
+    display:flex;
+    margin-left:10px;
+    margin-bottom:15px;
+}
 .header::after{
-    content:"" ;
+    content: "";
     height: 100vh;
     width: 100%;
     background-image: url(/img/landscape.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
-    display: block;
-    -webkit-filter: blur(15px);
-    filter:blur(10px);
+    display:grid;
+    position:absolute;
+    -webkit-filter: blur(5px);
+    filter:blur(5px);
 }
 hr{
     color:white;
@@ -41,8 +69,8 @@ section, .intrinsic-size{
 }
 .olstyle{
     position:static;
-    border:solid white 0.5px;
-    background-color:rgba(230, 241, 245, 0.349);
+    border:solid rgba(255, 255, 255, 0.702) 2.5px;
+    background-color:rgba(255, 255, 255, 0.491);
     height:28px;
     border-radius:70px;
     margin-left:380px;
@@ -53,16 +81,13 @@ section, .intrinsic-size{
 .cursordefault{
     cursor: default;
 }
-
 .linkbutton{
     border:0px;
     background-color:rgba(252, 226, 244, 0);
-    
 }
 .cursorpointer{
     cursor: pointer;
 }
-
 .nav{ 
     width: 100%;
     height: 125px;
@@ -72,11 +97,11 @@ section, .intrinsic-size{
 .header-content{
     position: absolute;
     z-index: 1;
-    top: 22%;
+    top: 25%;
     margin-top: 1rem;
     text-align: center;
     align-content: center;
-    width:100%;
+    width: 100%;
     height: 250px;
     display:flex;
     flex-direction: column;
@@ -91,9 +116,10 @@ section, .intrinsic-size{
     text-align:center;
     font-family: 'Roboto', sans-serif;
 }
-#ARTICLES:hover, #PODCAST:hover, #HOME:hover, #COURSES:hover{
+#ARTICLES:hover, #PODCAST:hover, #COURSES:hover, #HOME:hover{
     background-color:rgb(255, 255, 255, 0.163);
     filter: brightness(1.5);
+    border-radius: 15px;
 }
 .copyrightbutton:hover{
     cursor: pointer;
@@ -122,16 +148,17 @@ section, .intrinsic-size{
     border:solid rgba(255, 255, 255 , 0.471) 10px;
 }
 .card{  
-    height: 310px;
-    width: 240px;
-    border-radius: 7%;
+    overflow-y:scroll;
+    height: 550px;
+    width: 925px;
+    border-radius: 10px;
     background-color:#fffffff1;
     box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.015);
     box-shadow: 3px 7px 13px 0 rgba( 31, 38, 135, 0.37 );
+    position:fixed;
 }
-.card:hover{
-    box-shadow: 7px 7px 5px  rgba(0, 0, 0, 0.2);
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+.inline{
+    display:block
 }
 .fab.fa-instagram{
     color: rgb(240, 61, 160);
@@ -214,7 +241,7 @@ section, .intrinsic-size{
     width:200px;
 }
 .linkstyle{
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 .linkcolor{

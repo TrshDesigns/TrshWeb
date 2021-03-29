@@ -1,39 +1,24 @@
-*,
-*:focus {
+* {
   box-sizing: border-box;
   user-select: none;
-  outline: 0;
-  outline-color: transparent;
-  outline-style: none;
-}
-input,
-textarea,
-button,
-select,
-a {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
   background: rgb(2, 0, 36);
   background: linear-gradient(
     0deg,
-    rgb(188, 228, 237) 0%,
-    rgba(255, 255, 255, 0) 35%,
-    rgb(255, 255, 255) 100%
+    rgb(255, 255, 255) 0%,
+    rgba(78, 8, 51, 0) 35%,
+    rgb(178, 241, 255) 100%
   );
   font-family: "Roboto", sans-serif;
   margin: 0px;
   padding: 0px;
 }
-hr{
-    border-top:1px solid white;
-}
+
 .languagesimg {
   width: 143px;
   height: 208px;
   border-radius: 15px;
-  transform: translateY(0);
-  transition: all 0.3s ease-in-out;
 }
 .fa-code {
   margin-top: 140px;
@@ -82,7 +67,6 @@ section,
 .cursorpointer {
   cursor: pointer;
 }
-
 .nav {
   width: 100%;
   height: 125px;
@@ -105,7 +89,7 @@ section,
 #HOME:hover {
   cursor: default;
 }
-#PODCAST{
+#COURSES{
   border-radius: 15px;
   font-size: 20px;
   font-weight: lighter;
@@ -116,9 +100,9 @@ section,
   text-align: center;
   font-family: "Roboto", sans-serif;
 }
-#HOME ,
+#PODCAST,
 #ARTICLES,
-#COURSES {
+#HOME {
   border-radius: 15px;
   font-size: 20px;
   background-color: rgba(255, 255, 255, 0.056);
@@ -127,8 +111,9 @@ section,
   text-align: center;
   font-family: "Roboto", sans-serif;
 }
-#ARTICLES:hover,#HOME:hover
-,#COURSES:hover {
+#ARTICLES:hover,
+#PODCAST:hover,
+#HOME:hover {
   background-color: rgb(255, 255, 255, 0.163);
   filter: brightness(1.5);
 }
@@ -159,20 +144,20 @@ section,
   border: solid rgba(255, 255, 255, 0.471) 10px;
 }
 .card {
-  height: 310px;
-  width: 240px;
+  height: 410px;
+  width: 242px;
   border-radius: 7%;
   background-color: #fffffff1;
   box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.015);
   box-shadow: 3px 7px 13px 0 rgba(31, 38, 135, 0.37);
   transform: translateY(0);
-  transition: all 0.3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 .card:hover {
   box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   transform: translateY(-20px);
-  transition: all 0.3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 .fab.fa-instagram {
   color: rgb(240, 61, 160);
@@ -261,6 +246,36 @@ section,
 .linkcolor {
   color: teal;
 }
+.coursesboard {
+  position: center;
+  width: 1200px;
+  height: 800px;
+  background-color: red;
+}
+.board {
+  margin-top: 20%;
+  background-color: white;
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 3fr;
+}
+.fab.fa-css3-alt {
+  color: #264de4;
+}
+.fab.fa-js-square {
+  color: #f1db46;
+}
+.fab.fa-html5 {
+  color: #e34c26;
+}
+.fab.fab.fa-html5:hover,
+.fab.fab.fa-js-square:hover,
+.fab.fa-css3-alt:hover {
+  filter: brightness(1.2);
+  -webkit-filter: brightness(1.2);
+}
 @media (max-width: 1400px) {
   .menu,
   .olstyle {
@@ -291,117 +306,112 @@ section,
     margin-right: auto;
   }
 }
-@media (max-width: 960px) {
-  .grid-3 {
-    display: grid;
-    grid-template-columns: 1fr;
-    column-gap: 0px;
+@media(max-width: 960px) {
+  .grid-3{
+     display: grid;
+     grid-template-columns: 1fr;
+     column-gap: 0px;
   }
-  .card-2 {
-    height: 180px;
+  .card-2{
+     height:180px
   }
-}
-@media (max-width: 513px) {
-  .grid-4 {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  #HOME,
-  #PODCAST,
-  #ARTICLES,
-  #COURSES {
-    border: rgba(255, 255, 255, 0.845) solid 2.5px;
-    margin: 1px;
-    box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.2);
-    border-radius: 11px;
-  }
-  .olstyle {
-    margin-top: 10%;
-    display: flex;
-    flex-direction: column;
-    padding-right: 30px;
-    border: solid rgba(255, 255, 255, 0) 0.5px;
-    background-color: rgba(230, 241, 245, 0);
-    box-shadow: none;
-  }
-  .header-content {
-    top: 35%;
-  }
-  .menu {
-    text-align: center;
-  }
-  .languagesimg {
-    width: 83px;
-    height: 120px;
-  }
-  .fa-project-diagram,
-  .fa-code {
-    font-size: 100px;
-  }
-}
-@media (max-height: 500px) {
-  .olstyle {
-    margin-top: 0%;
-  }
-  .header-content {
-    top: 40%;
-  }
-  .title {
-    font-size: 20px;
-  }
-}
-@media (max-width: 300px) {
-  .languagesimg {
-    width: 83px;
-    height: 120px;
-  }
-  .fa-project-diagram {
-    font-size: 90px;
-  }
-  .responsive-300px {
-    font-size: 22px;
-  }
-  .card {
-    width: 180px;
-  }
-  .fa-code {
-    font-size: 50px;
-  }
-  .languagesimg {
-    width: 53px;
-    height: 85px;
-  }
-  .responsive-300px {
-    font-size: 20px;
-  }
-  .fa-code,
-  .fa-project-diagram {
-    font-size: 90px;
-  }
-}
-@media (max-height: 600px) {
-  .logo {
-    height: 130px;
-    width: 130px;
-  }
-}
-@media (max-height: 450px) {
-  #HOME,
-  #PODCAST,
-  #ARTICLES,
-  #COURSES {
-    font-size: 20px;
-  }
-  .header-content {
-    top: 38%;
-    height: 100%;
-  }
-}
-@media (max-height: 360px) {
-  .header-content {
-    top: 45%;
-  }
-  .subname {
-    margin-bottom: 190px;
-  }
-}
+ }
+ @media(max-width: 513px) {
+     .grid-4{
+         display:grid;
+         grid-template-columns:1fr;
+     }
+     #HOME, #PODCAST, #ARTICLES, #COURSES{
+         border:rgba(255, 255, 255, 0.845) solid 2.5px;
+         margin:1px;
+         box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.2);
+         border-radius:11px;  
+     }
+     .olstyle{
+         margin-top:10%;
+     display:flex;
+     flex-direction:column;
+     padding-right:30px;
+     border:solid rgba(255, 255, 255, 0) 0.5px;
+     background-color:rgba(230, 241, 245, 0);  
+     box-shadow:none;
+     }
+     .header-content{
+         top:35%;
+        
+     }
+     .menu{
+         text-align:center;
+     }
+     .languagesimg{
+         width:83px;
+         height: 120px;
+     }
+     .fa-project-diagram, .fa-code{
+         font-size:100px;
+     }
+ }
+ @media(max-height:500px){
+     .olstyle{
+         margin-top:0%;
+     }
+     .header-content{
+         top:40%;
+     }
+     .title{
+         font-size:20px;
+     }
+ }
+ @media(max-width: 300px){
+     .languagesimg{
+         width:83px;
+         height: 120px;
+   
+     }
+     .fa-project-diagram{
+         font-size:90px;
+     }
+     .responsive-300px{
+         font-size:22px;
+     }
+     .card{
+         width:180px;
+     }
+     .fa-code{
+         font-size:50px;
+     }
+     .languagesimg{
+         width: 53px;
+         height:85px;
+     }
+     .responsive-300px{
+         font-size:20px;
+     }
+     .fa-code,.fa-project-diagram{
+         font-size:90px;
+     }
+ }
+ @media(max-height: 600px){
+     .logo{
+         height:130px;
+         width:130px;
+     }
+ }
+ @media(max-height: 450px){
+     #HOME, #PODCAST, #ARTICLES, #COURSES{
+         font-size:20px;
+     }
+     .header-content{
+         top:38%;
+         height:100%;
+     }
+ }
+ @media(max-height:360px){
+     .header-content{
+         top:45%;
+     }
+     .subname{
+         margin-bottom:190px;
+     }
+ }
+ 

@@ -1,41 +1,36 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
-<head>
-    <!--META,CHARSET,VIEWPORT ETC-->
-    <meta name="keywords" content="podcast, science, design, graphic design, media,">
-    <meta name="description" content="media webpage">
-    <meta name="author" content="TrshDesigns">
-    <meta name="copyright" content="FreeUse">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie-edge">
-    <!--TITLE-->
-    <title>Landing tree</title>
-    <!--FONTAWESOME-->
-    <script src="https://kit.fontawesome.com/1fe7acc072.js" crossorigin="anonymous"></script>
-    <!--CUSTOMCSS-->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style copy.css">
-    <!--MATERIALIZECSS-->
-    <!--GOOGLE FONTS-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-    <!--ANIMATE CSS-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <!--JASON MANIFEST-->
-    <link rel="manifest" href="/json/manifest.json">
-    <!--===THEME COLOR===-->
-    <meta name="theme-color" content="#317EFB" />
-</head>
-
+    <head>
+        <!--FONTAWESOME-->
+        <script src="https://kit.fontawesome.com/1fe7acc072.js" crossorigin="anonymous"></script>
+        <!--CUSTOMCSS-->
+        <link rel="stylesheet" href="/css/index/index.css">
+        <link rel="stylesheet" href="/css/menu/menu.css">
+        <!--META,CHARSET,VIEWPORT ETC-->
+        <meta name="keywords" content="podcast, science, design, graphic design, media,">
+        <meta name="description" content="podcast webpage">
+        <meta name="author" content="TrshDesigns">
+        <meta name="copyright" content="FreeUse">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <!--TITLE-->
+        <title>Landing tree</title>
+        <!--GOOGLE FONTS-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Itim&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+        <!--ANIMATE CSS-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <!--JASON MANIFEST-->
+        <link rel="manifest" href="/json/manifest.json">
+    </head>
 <body>
     <!--WORKERJS-->
     <script>
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/js/service-worker.js');
+            navigator.serviceWorker.register("/js/service-worker.js");
         }
     </script>
     <nav class="nav">
@@ -43,12 +38,12 @@
             <div id="lateral">
                 <div class="lateral-elements">
                     <i class="menubuttonbar fas fa-caret-right fa-2x"></i>
-                    <div class=" hover">
-                        <i class="fas fa-user-astronaut fa-4x"></i><a href="html/index.html"></i><i
-                                class=" fas fa-home"></i></a><a href="html/notes.html"><i
-                                class="fas fa-book"></i></a></i><a><i class="fas fa-calendar-day"></i></a>
+                    <div class="hover">
+                        <a href="/html/profile.html"><i class="fas fa-user-astronaut fa-4x"></i></a><a href="/index.html"></i><i
+                                class=" fas fa-home"></i></a><a href="/html/notes.html"><i
+                                class="fas fa-book"></i></a></i><a href="html/calendar.html"><i class="fas fa-calendar-day"></i></a>
                         <p class="emailp">Ezequiel T <br> trshdesigns@outlook.com</p>
-                        <h2 class="link-titulo">Me</h2>
+                        <p class="link-titulo">Me</p>
                     </div>
                     <ul class="box hover">
                         <li><a href="#">Profile</a></li>
@@ -56,10 +51,10 @@
                     </ul>
                     <div class=" hover">
                         <i class=" fas fa-box-open fa-4x"></i>
-                        <h2 class="link-titulo">Content</h2>
+                        <p class="link-titulo">Content</p>
                     </div>
                     <ul class="box hover">
-                        <li><a href="html/upload.html">Upload</a></li>
+                        <li><a href="/html/upload.html">Upload</a></li>
                         <li><a href="#">Explore</a></li>
                     </ul>
                 </div>
@@ -70,7 +65,7 @@
         </div>
         <ol class="menu olstyle grid-4">
             <ul>
-                <button id="HOME"><a class="linkstyle" href="html/index.html">Home</a></button>
+                <button id="HOME"><a class="linkstyle" ></a>Home</a></button>
             </ul>
             <ul>
                 <button id="PODCAST"><a class="linkstyle" href="html/podcast.html">Podcast</a></button>
@@ -86,8 +81,8 @@
     <!--HEADER-->
     <header class="header">
         <div class="header-content">
-            <img src="img/logo.png" alt="trsh logo" class="animate__flipInY logo text-center">
-            <h2 class="title principal text-center">TrshDesigns</h2>
+            <img src="img/logo.png" height="200px" width="200px" alt="trsh logo" class="animate__bounceIn logo">
+            <h2 class="title subname principal text-center">TrshDesigns</h2>
             <p class=" text-center">Life is Design</p>
         </div>
     </header>
@@ -127,7 +122,7 @@
                     <i class="fas fa-code fa-10x"></i>
                 </div>
                 <div>
-                    <img class="card-2 languagesimg" alt="htmlimg" src="img/HTMLIMG.png">
+                    <img class="card-2 languagesimg" alt="htmlimg" width="" src="img/HTMLIMG.png">
                     <img class="card-2 languagesimg" alt="jsimg" src="img/JSIMG.png">
                     <img class="card-2 languagesimg" alt="cssimg" src="img/CSSIMG.png">
                     <h3 class="responsive-300px title">Programming Courses</h3>
@@ -135,8 +130,8 @@
                             programming languages used <italic>FREE</italic></b></p>
                 </div>
             </div>
-            <button class="trybutton linkbutton"><a class="linkstyle " href="">
-                    <h4 class="title principal">TRY NOW</h4>
+            <button class="trybutton linkbutton"><h4 class="title text-center principal">TRY NOW</h4><a class="linkstyle " href="">
+                    
                 </a></button>
         </div>
     </section>
@@ -152,19 +147,18 @@
                 <div class="center">
                     <i class="fas fa-project-diagram fa-10x"></i>
                 </div>
-
-                <button class="trybutton bg-two linkbutton"><a class="linkstyle " href="">
-                        <h4 class="title text-center principal">TRY NOW</h4>
+                <button class="trybutton bg-two linkbutton"><h4 class="title text-center principal">TRY NOW</h4><a class="linkstyle " href="">
+                       
             </div>
     </section>
     <!--FOOTER-->
     <footer class="footer text-center ">
         <p>TrshDesigns &copy; 2020 all rights reserved</p>
         <div>
-            <button class="copyrightbutton linkstyle"><a class="linkstyle linkcolor" href="html/copyright.html">more
-                    info about copyright</a></button>
+            <button class="copyrightbutton linkstyle"><a class="linkstyle linkcolor" href="html/copyright.html">moreinfo about copyright</a></button>
         </div>
     </footer>
+    
     <!--NAVBAR-->
 </body>
 

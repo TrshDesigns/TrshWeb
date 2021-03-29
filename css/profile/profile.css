@@ -4,7 +4,7 @@
 }
 body{
     background: rgb(2,0,36);
-    background: linear-gradient(0deg, rgb(188, 228, 237) 0%, rgba(255, 255, 255, 0) 35%, rgb(255, 255, 255) 100%);
+    background: linear-gradient(0deg, rgb(188, 228, 237) 0%, rgba(78, 8, 51, 0) 35%, rgb(178, 241, 255) 100%);
     font-family: 'Roboto', sans-serif;
     margin:0px;
     padding:0px;
@@ -62,7 +62,6 @@ section, .intrinsic-size{
 .cursorpointer{
     cursor: pointer;
 }
-
 .nav{ 
     width: 100%;
     height: 125px;
@@ -72,17 +71,29 @@ section, .intrinsic-size{
 .header-content{
     position: absolute;
     z-index: 1;
-    top: 22%;
-    margin-top: 1rem;
+    top: 25%;
+    margin-top: 40px;
+    margin-left:43%;
     text-align: center;
     align-content: center;
-    width:100%;
+    width: 200px;
     height: 250px;
-    display:flex;
-    flex-direction: column;
-    align-items:center;
 }
-#PODCAST, #ARTICLES, #COURSES, #HOME{
+#HOME:hover{
+    cursor:none;
+}
+#HOME{
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight:lighter;
+    background-color:rgba(255, 255, 255, 0.381);
+    border: 0px;
+    left: 0%;
+    filter: brightness(1.050);
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+}
+#PODCAST, #ARTICLES, #COURSES{
     border-radius: 15px;
     font-size: 20px;
     background-color:rgba(255, 255, 255, 0.056);
@@ -91,9 +102,10 @@ section, .intrinsic-size{
     text-align:center;
     font-family: 'Roboto', sans-serif;
 }
-#ARTICLES:hover, #PODCAST:hover, #HOME:hover, #COURSES:hover{
+#ARTICLES:hover, #PODCAST:hover, #COURSES:hover{
     background-color:rgb(255, 255, 255, 0.163);
     filter: brightness(1.5);
+    border-radius: 15px;
 }
 .copyrightbutton:hover{
     cursor: pointer;
@@ -128,6 +140,7 @@ section, .intrinsic-size{
     background-color:#fffffff1;
     box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.015);
     box-shadow: 3px 7px 13px 0 rgba( 31, 38, 135, 0.37 );
+
 }
 .card:hover{
     box-shadow: 7px 7px 5px  rgba(0, 0, 0, 0.2);
@@ -189,6 +202,7 @@ section, .intrinsic-size{
 .grid-4{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
+  
 }
 .grid-3{
     display: grid;
@@ -231,7 +245,6 @@ section, .intrinsic-size{
         padding: auto;
         margin:auto;
         text-align: auto;
-        font-size:24px;
     }
     .gallery-cover{
         display: grid;
@@ -261,24 +274,12 @@ section, .intrinsic-size{
         display:grid;
         grid-template-columns:1fr;
     }
-    #HOME, #PODCAST, #ARTICLES, #COURSES{
-        border:rgba(255, 255, 255, 0.845) solid 2.5px;
-        margin:1px;
-        box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.2);
-        border-radius:11px;  
-    }
     .olstyle{
-        margin-top:10%;
-    display:flex;
-    flex-direction:column;
-    padding-right:30px;
+    position:center;
     border:solid rgba(255, 255, 255, 0) 0.5px;
-    background-color:rgba(230, 241, 245, 0);  
+    background-color:rgba(230, 241, 245, 0);
+    margin-right: 10px;  
     box-shadow:none;
-    }
-    .header-content{
-        top:35%;
-       
     }
     .menu{
         text-align:center;
@@ -287,70 +288,60 @@ section, .intrinsic-size{
         width:83px;
         height: 120px;
     }
-    .fa-project-diagram, .fa-code{
-        font-size:100px;
+    .fa-code{
+        font-size:90px;
     }
-}
-@media(max-height:500px){
-    .olstyle{
-        margin-top:0%;
+    .fa-project-diagram{
+        font-size:120px;
     }
     .header-content{
-        top:40%;
+        position: absolute;
+        z-index: 1;
+        top: 25%;
+        margin-top: 40px;
+        margin-left:39%;
+        text-align: center;
+        align-content: center;
+        width: 200px;
+        height: 250px;
     }
-    .title{
-        font-size:20px;
+}
+@media(max-width: 475px){
+    .header-content{
+        margin-left:33%;
+    }
+}
+@media(max-width: 390px){
+    .header-content{
+        margin-left:25%;
+        margin-right:25%;
     }
 }
 @media(max-width: 300px){
+    .header-content{
+        margin-left:20%;
+    }
+    .logo{
+        height:150px;
+        width:150px;
+        animation-duration: 5s;
+    }
     .languagesimg{
         width:83px;
         height: 120px;
-  
+        margin-left: 10px;
+    }
+    .responsive-300px{
+        font-size: 20px;
     }
     .fa-project-diagram{
         font-size:90px;
     }
-    .responsive-300px{
-        font-size:22px;
-    }
-    .card{
-        width:180px;
-    }
-    .fa-code{
-        font-size:50px;
-    }
-    .languagesimg{
-        width: 53px;
-        height:85px;
-    }
-    .responsive-300px{
-        font-size:20px;
-    }
-    .fa-code,.fa-project-diagram{
-        font-size:90px;
-    }
 }
-@media(max-height: 600px){
+@media(max-height: 340px){
     .logo{
         height:130px;
         width:130px;
-    }
-}
-@media(max-height: 450px){
-    #HOME, #PODCAST, #ARTICLES, #COURSES{
-        font-size:20px;
-    }
-    .header-content{
-        top:38%;
-        height:100%;
-    }
-}
-@media(max-height:360px){
-    .header-content{
-        top:45%;
-    }
-    .subname{
-        margin-bottom:190px;
+        margin-top:10px;
     }
 }
